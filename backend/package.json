@@ -1,0 +1,11 @@
+{
+  "name": "jdtm",
+  "version": "1.0.0",
+  "description": "bus ticket management app",
+  "main": "server.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "author": "zishan deshmukh",
+  "license": "ISC"
+}
