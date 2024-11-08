@@ -2,9 +2,8 @@
   // Add any Svelte logic here if needed
 </script>
 
-<div class="flex flex-col items-center bg-gray-100 min-h-screen p-4">
-  <!-- Header Section -->
-  <div class="w-full max-w-4xl bg-teal-600 p-4 flex items-center justify-between text-white rounded-lg shadow-lg mb-6">
+<div class="flex flex-col items-center bg-gray-100 min-h-screen">
+  <div class="w-full max-w-4xl bg-teal-600 p-4 flex items-center justify-between text-white rounded-t-lg">
     <div class="flex items-center space-x-2">
       <img src="/path/to/logo.png" alt="Logo" class="w-10 h-10" />
       <h1 class="text-xl font-bold">Jivandeep Travels</h1>
@@ -28,19 +27,17 @@
     </button>
   </div>
 
-  <!-- Booking Form Section -->
-  <div class="bg-white w-full max-w-4xl p-6 rounded-lg shadow-lg">
-    <!-- Route and Date Selection -->
-    <div class="flex space-x-2 mb-4">
-      <div class="flex-1 flex flex-col items-center bg-blue-100 rounded-l-lg py-4 px-2">
+  <div class="bg-white w-full max-w-4xl p-4 rounded-b-lg shadow-lg">
+    <div class="flex space-x-2">
+      <div class="flex-1 flex flex-col items-center bg-blue-100 rounded-l-lg py-4">
         <label class="text-gray-700">From</label>
         <input type="text" class="mt-2 p-2 rounded-lg w-10/12" placeholder="City/Location" />
       </div>
-      <div class="flex-1 flex flex-col items-center bg-blue-100 py-4 px-2">
+      <div class="flex-1 flex flex-col items-center bg-blue-100 py-4">
         <label class="text-gray-700">To</label>
         <input type="text" class="mt-2 p-2 rounded-lg w-10/12" placeholder="City/Location" />
       </div>
-      <div class="flex-1 flex flex-col items-center bg-blue-100 rounded-r-lg py-4 px-2">
+      <div class="flex-1 flex flex-col items-center bg-blue-100 rounded-r-lg py-4">
         <label class="text-gray-700">Date</label>
         <input type="date" class="mt-2 p-2 rounded-lg w-10/12" />
       </div>
@@ -49,9 +46,7 @@
       </button>
     </div>
 
-    <!-- Passenger Information -->
-    <div class="flex space-x-4">
-      <!-- Left Information Box -->
+    <div class="flex space-x-2 mt-4">
       <div class="flex-1 bg-blue-200 p-4 rounded-lg">
         <label class="block text-gray-700">Name</label>
         <input type="text" class="mt-1 p-2 rounded w-full" />
@@ -66,7 +61,6 @@
         <input type="text" class="mt-1 p-2 rounded w-full" />
       </div>
 
-      <!-- Right Information Box -->
       <div class="flex-1 bg-blue-200 p-4 rounded-lg">
         <label class="block text-gray-700">Journey</label>
         <input type="text" class="mt-1 p-2 rounded w-full" />
