@@ -20,10 +20,40 @@
         <!-- ye hai ticket system -->
 
         <div class="px-3 py-5 flex overflow-y-auto flex-col text-black text-lg  bg-white rounded-lg items-center justify-between" style="max-height:82svh;">
+            
+            <div class="w-full flex flex-row  gap-2 pb-4">
+
+                <div class="flex flex-col gap-2 items-left p-3 w-3/5 rounded-lg bg-blue-100">
+                    <div class="pl-2">Item name</div>
+                    <div class="flex flex-col relative">
+                        <input class="w-full h-full p-2 rounded-lg focus:outline-none" placeholder="Item">                        
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-2 items-left p-3 rounded-lg bg-blue-100 w-1/5">
+                    <div class="pl-2">Weight (Kg)</div>
+                    <div class="flex flex-col relative">
+                        <input class="w-full h-full p-2 rounded-lg focus:outline-none" type="number" placeholder="Weight">                        
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-2 items-left p-3 rounded-lg bg-blue-100">
+                    <div class="pl-2">Item type</div>
+                    <div class="flex flex-col relative">
+                        <input class="w-full h-full p-2 rounded-lg focus:outline-none" placeholder="City/Location">
+                        <!-- idhar me city ki array iterate hogi -->
+                        <div class="absolute">
+
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
             <div class="w-full flex flex-row justify-around gap-2">
 
                 <div class="flex flex-col gap-2 items-left p-3 rounded-lg bg-blue-100">
-                    <div>From</div>
+                    <div class="pl-2">From</div>
                     <div class="flex flex-col relative">
                         <input class="w-full h-full p-2 rounded-lg focus:outline-none" placeholder="City/Location">
                         <!-- idhar me city ki array iterate hogi -->
@@ -34,7 +64,7 @@
                 </div>
 
                 <div class="flex flex-col gap-2 items-left p-3 rounded-lg bg-blue-100">
-                    <div>To</div>
+                    <div class="pl-2">To</div>
                     <div class="flex flex-col relative">
                         <input class="w-full h-full p-2 rounded-lg focus:outline-none" placeholder="City/Location">
                         <!-- idhar me city ki array iterate hogi -->
@@ -45,14 +75,14 @@
                 </div>
 
                 <div class="flex flex-col gap-2 items-left p-3 rounded-lg bg-blue-100">
-                    <div>Date</div>
+                    <div class="pl-2">Date</div>
                     <div class="flex flex-col relative">
                         <input class="w-full h-full p-2 rounded-lg focus:outline-none" type="date" placeholder="Date">
                     </div>
                 </div>
 
                 <div class="flex flex-col gap-2 items-left p-3 rounded-lg bg-blue-100">
-                    <div>Time</div>
+                    <div class="pl-2">Time</div>
                     <div class="flex flex-col relative">
                         <input class="w-full h-full p-2 rounded-lg focus:outline-none" type="time" placeholder="Time">
                     </div>
@@ -65,7 +95,7 @@
 
             <div class="w-full pt-1 rounded-xl my-5 bg-gray-100"></div>
 
-            <div class="w-full flex flex-row bg-gray-100 rounded-2xl">
+            <div class="w-full flex flex-row bg-gray-200 rounded-2xl">
                 <div class="flex flex-col p-5 items-left w-1/2">
                     <div class="block text-gray-700 pl-2">Name</div>
                     <input type="text" class="mt-1 p-2 rounded-lg w-full" placeholder="Name"/>
