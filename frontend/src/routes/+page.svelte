@@ -14,16 +14,7 @@
 
     let inputClass="mt-1 p-2 pl-3 rounded-lg w-full"
     let from='City/ Location',to='City/ Location'
-    let items=[{
-            id:1,
-            name:"niganwga",
-            weight:"2",
-            type:"niganwga",
-            from:"niganwga",
-            to:"niganwga",
-            date:"niganwga",
-            time:"niganwga"
-        }]
+    let items=[]
     let itemName='',itemWeight=0,itemType='Item Type',date=0,time=0
     function addItem(){
         items=[...items,{
